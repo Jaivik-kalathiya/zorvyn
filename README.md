@@ -259,14 +259,3 @@ After admin login in dashboard:
 2. Use **Run report now** in Scheduled reports.
 3. Download any generated report via its **CSV** action.
 4. Use **Log out** to revoke current session token(s) on the server.
-
-## Evaluation Criteria Mapping
-
-1. Backend Design: layered architecture with clear separation of concerns.
-2. Logical Thinking: explicit RBAC matrix and business rules in services.
-3. Functionality: complete CRUD, filters, analytics, auth, and role restrictions.
-4. Code Quality: strict typing, linting, modular code organization.
-5. Database Modeling: normalized entities + indexing + soft delete metadata.
-6. Validation and Reliability: schema validation, structured error handling, tests.
-7. Documentation: setup, API overview, assumptions, tradeoffs provided.
-8. Additional Thoughtfulness: audit logs, dashboard UX, charting, pagination, and deployment config.
